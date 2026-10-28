@@ -1,0 +1,22 @@
+Android SDK 29
+Performing Streamed Install
+Success
+Starting: Intent { cmp=com.sos.nearby/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.sos.nearby/.MainActivity
+TotalTime: 6587
+WaitTime: 6628
+Complete
+Visible activity: foreground service present
+Persistent foreground notification: present
+After HOME / activity hidden: foreground service present
+Screen sleep: confirmed
+Screen off: foreground service present
+After Force Stop: no foreground service
+Force Stop remains stopped: no foreground service
+After explicit reopen: foreground service present
+This verifies service/notification lifecycle on API 29, not Bluetooth delivery or Persian audio.
+Notification stop action: stopped foreground service.
+Explicit stop retained after reopening.
+Explicit activation restarted foreground service.
